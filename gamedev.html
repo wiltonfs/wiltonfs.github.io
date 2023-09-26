@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Game Dev Projects</title>
+    <title>Game Development Projects</title>
     <link rel="stylesheet" href="styles.css"> <!-- Link to the main CSS file -->
     <link rel="stylesheet" href="projects.css"> <!-- Link to the projects-specific CSS file -->
 </head>
@@ -21,48 +21,51 @@
 
     <div class="container">
         <div class="content">
-            <!-- Project 1 -->
-            <div class="project">
-                <div class="project-title">Project Title 1</div>
-                <div class="project-date">Date: January 2023</div>
-                <div class="project-description">
-                    This is a brief description of project 1. You can provide details about the project here.
-                </div>
-                <div class="project-link">
-                    <a href="project1-link" target="_blank" rel="noopener noreferrer">View Project</a>
-                </div>
-                <div class="image-carousel">
-                    <img src="project1-image1.jpg" alt="Project 1 Image 1">
-                    <img src="project1-image2.jpg" alt="Project 1 Image 2">
-                    <img src="project1-image3.jpg" alt="Project 1 Image 3">
-                    <!-- Add more images for the carousel -->
-                </div>
-            </div>
-
-            <!-- Example project 2 -->
-            <div class="project">
-                <div class="project-title">Project Title 2</div>
-                <div class="project-date">Date: March 2023</div>
-                <div class="project-description">
-                    This is a brief description of project 2. You can provide details about the project here.
-                </div>
-                <div class="project-link">
-                    <a href="project2-link" target="_blank" rel="noopener noreferrer">View Project</a>
-                </div>
-                <div class="image-carousel">
-                    <img src="project2-image1.jpg" alt="Project 2 Image 1">
-                    <img src="project2-image2.jpg" alt="Project 2 Image 2">
-                    <img src="project2-image3.jpg" alt="Project 2 Image 3">
-                    <!-- Add more images for the carousel -->
-                </div>
-            </div>
-
-            <!-- Add more project sections as needed -->
+            <!-- Dynamically generate project sections using JavaScript -->
+            <div id="projects-container"></div>
         </div>
     </div>
 
     <footer>
-        <!-- Add your footer content here, such as contact information or additional links -->
+        <!-- ... (your existing footer content) ... -->
     </footer>
+
+    <script src="projects.js"></script> <!-- Include the projects.js file -->
+    <script>
+        // Function to create a project section
+        function createProject(projectData) {
+            const projectElement = document.createElement("div");
+            projectElement.classList.add("project");
+    
+            projectElement.innerHTML = `
+                <div class="project-title">${projectData.title}</div>
+                <div class="project-subtitle">${projectData.subtitle}</div>
+                <div class="project-date">${projectData.date}</div>
+                <div class="image-carousel">
+                    ${projectData.images.map(image => `
+                        <img src="images/gamedev/${image}.PNG" alt="${projectData.title} Image" style="max-width: 25%; height: auto;">
+                    `).join('')}
+                </div>
+                <div class="project-description">${projectData.description}</div>
+                <div class="project-skills">Skills: ${projectData.skills.join(', ')}</div>
+                <div class="project-links">
+                    ${projectData.links_text.map((text, index) => `
+                        <a href="${projectData.links[index]}" target="_blank" rel="noopener noreferrer">${text}</a><br>
+                    `).join('')}
+                </div>
+            `;
+    
+            return projectElement;
+        }
+    
+        // Get the container for projects
+        const projectsContainer = document.getElementById("projects-container");
+    
+        // Loop through the projectsData array and create project sections
+        for (const projectData of projectsData) {
+            const projectElement = createProject(projectData);
+            projectsContainer.appendChild(projectElement);
+        }
+    </script>
 </body>
 </html>
