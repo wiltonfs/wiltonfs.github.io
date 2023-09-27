@@ -30,7 +30,7 @@
         <!-- ... (your existing footer content) ... -->
     </footer>
 
-    <script src="projects.js"></script> <!-- Include the projects.js file -->
+    <script src="gamedev-data.js"></script> <!-- Include the projects.js file -->
     <script>
         // Function to create a project section
         function createProject(projectData) {
@@ -43,7 +43,7 @@
                 <div class="project-date">${projectData.date}</div>
                 <div class="image-carousel">
                     ${projectData.images.map(image => `
-                        <img src="images/gamedev/${image}.PNG" alt="${projectData.title} Image" style="max-width: 25%; height: auto;">
+                        <img src="images/gamedev/${image}.PNG" alt="${projectData.title} Image" style="max-width: 50%; height: auto;">
                     `).join('')}
                 </div>
                 <div class="project-description">${projectData.description}</div>
