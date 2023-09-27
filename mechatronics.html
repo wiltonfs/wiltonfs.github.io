@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mechatronics Projects</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the main CSS file -->
+    <link rel="stylesheet" href="projects.css"> <!-- Link to the projects-specific CSS file -->
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">About Me</a></li>
+                <li><a href="mechatronics.html">Mechatronics Engineering</a></li>
+                <li><a href="gamedev.html">Game Dev</a></li>
+                <li><a href="cs.html">Computer Science</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="content">
+            <!-- Dynamically generate project sections using JavaScript -->
+            <div id="projects-container"></div>
+        </div>
+    </div>
+
+    <footer>
+        <!-- ... (your existing footer content) ... -->
+    </footer>
+
+    <script src="mechatronics-data.js"></script> <!-- Include the projects.js file -->
+    <script>
+        // Function to create a project section
+        function createProject(projectData) {
+            const projectElement = document.createElement("div");
+            projectElement.classList.add("project");
+    
+            projectElement.innerHTML = `
+                <div class="project-title">${projectData.title}</div>
+                <div class="project-subtitle">${projectData.subtitle}</div>
+                <div class="project-date">${projectData.date}</div>
+                <div class="image-carousel">
+                    ${projectData.images.map(image => `
+                        <img src="images/mechatronics/${image}.PNG" alt="${projectData.title} Image" style="max-width: 50%; height: auto;">
+                    `).join('')}
+                </div>
+                <div class="project-description">${projectData.description}</div>
+                <div class="project-skills">Skills: ${projectData.skills.join(', ')}</div>
+                <div class="project-links">
+                    ${projectData.links_text.map((text, index) => `
+                        <a href="${projectData.links[index]}" target="_blank" rel="noopener noreferrer">${text}</a><br>
+                    `).join('')}
+                </div>
+            `;
+    
+            return projectElement;
+        }
+    
+        // Get the container for projects
+        const projectsContainer = document.getElementById("projects-container");
+    
+        // Loop through the projectsData array and create project sections
+        for (const projectData of projectsData) {
+            const projectElement = createProject(projectData);
+            projectsContainer.appendChild(projectElement);
+        }
+    </script>
+</body>
+</html>
