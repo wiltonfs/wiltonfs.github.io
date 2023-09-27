@@ -18,8 +18,8 @@ const projectsData = [
         images: ["Lambton_0", "Lambton_1"],
         description: "Educational game for Aamjiwnaang First Nation to teac the history of the community and the importance of the land. Built in Unreal Engine 5. Personal responsibilities include: player character movement, NPCs, dialogue systems, and dialogue UI.",
         skills: ["Unreal Engine 5", "C++", "Blueprints", "MetaHuman creator", "Agile Development", "Scrum", "Jira", "Confluence", "Git"],
-        links_text: [],
-        links: [],
+        links_text: ["Sept 2023 Demo Reel"],
+        links: ["https://youtu.be/XzPYYEkJTvA"],
         
     },
     {
