@@ -64,12 +64,12 @@ const projectsData = [
     {
         title: "Sip & Puff Mouse",
         subtitle: "Personal project",
-        date: "May 2021 - Aug 2021",
+        date: "Feb 2017",
         images: ["SUP_0", "SUP_1", "SUP_2"],
         description: "Open source, < $100 Sip-and-Puff mouse for paralyzed patients. Existing options are $1k-$2k. Allows patients to mimic all mouse interactions. 3D printed, designed in Fusion 360. Arduino based with customizable sensitivity and analog filtering. THT soldering, analog sensors. Breath filter and stainless steel mouthpiece. Same functionality and sanitation as commercial options. Instructions and files are freely available online. First Prize in the Instructables.com Microcontroller Contest 2018. Featured on Hackaday, Open-electronics.org, and New Mobility Magazine.",
         skills: ["Arduino", "Fusion 360", "3D printing", "Soldering"],
-        links_text: ["See collaborator, Jacob Field", "See project on Instructables.com", "Article on Hackaday.com", "Article in New Mobility Magazine", "Article on Open-electronics.org"],
-        links: [],
+        links_text: ["See collaborator, Jacob Field", "See project on Instructables.com", "Article on Hackaday.com", "Article in Spinal Cord Injury Zone"],
+        links: ["https://www.linkedin.com/in/jacobtfield", "https://www.instructables.com/The-Sup-a-Mouse-for-Quadriplegics-Low-Cost-and-Ope/", "https://hackaday.com/2018/04/27/an-open-source-sip-and-puff-mouse-for-affordable-accessibility/", "https://spinalcordinjuryzone.com/info/19863/the-sup-a-open-source-sip-and-puff-mouse-for-quadriplegics"],
     },
     
 ];
