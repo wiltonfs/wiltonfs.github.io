@@ -15,7 +15,7 @@ const projectsData = [
         title: "CAN Steering Position Sensor",
         subtitle: "UBC Formula SAE design team",
         date: "Aug 2022 - Dec 2022",
-        images: ["CAN_0", "Can_2", "CAN_1"],
+        images: ["CAN_0", "CAN_1", "CAN_2"],
         description: "Integrated 0.5 Mb/s OEM CAN bus steering position sensor into existing 1 Mb/s network. Custom STM32 firmware translates between CAN speeds. Validated solution with oscilloscope. Implemented solution on vehicle. Successful integration of 2 different CAN network speeds. Steering position data collected for suspension and aerodynamic validation.",
         skills: ["CAN bus", "STM32", "C", "Oscilloscope", "Multimeter", "Soldering", "Breadboard prototyping"],
         links_text: [],
