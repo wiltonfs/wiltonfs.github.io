@@ -48,10 +48,16 @@ nav ul li a {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-img {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* Style for the Felix images */
+.felix-image {
+    flex: 1;
+    max-width: 49%;
     height: auto;
 }
 
