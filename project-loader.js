@@ -30,7 +30,7 @@ function createProject(projectData, category) {
 
 //data is the name of a JSON file, and container is the name of the HTML element to load the projects into
 function loadProjects(category, containerId) {
-    //example: category = "cs"
+    // Example: category = "cs"
     const projectsContainer = document.getElementById(containerId);
 
     // Fetch the JSON data
@@ -40,9 +40,16 @@ function loadProjects(category, containerId) {
             // Use Promise.all to ensure all project elements and separator bands are created before appending them
             const elementsToAdd = [];
             
-            projectsData.forEach(projectData => {
+            projectsData.forEach((projectData, index) => {
                 const projectElement = createProject(projectData, category);
                 elementsToAdd.push(projectElement);
+
+                // Add vertical spacing between project elements
+                if (index < projectsData.length - 1) {
+                    const spacer = document.createElement('div');
+                    spacer.style.height = '30px'; // 10px vertical spacing
+                    elementsToAdd.push(spacer);
+                }
             });
 
             // Append all elements at once
@@ -50,5 +57,6 @@ function loadProjects(category, containerId) {
         })
         .catch(error => console.error('Error loading JSON:', error));
 }
+
 
 
