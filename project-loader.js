@@ -27,6 +27,7 @@ function createProject(projectData, category) {
     return projectElement;
 }
 
+
 //data is the name of a JSON file, and container is the name of the HTML element to load the projects into
 function loadProjects(category, containerId) {
     //example: category = "cs"
@@ -36,17 +37,16 @@ function loadProjects(category, containerId) {
     fetch('data/' + category + '-data.json')
         .then(response => response.json())
         .then(projectsData => {
-            // Use Promise.all to ensure all project elements are created before appending them
-            const projectPromises = projectsData.map(projectData => {
-                return new Promise((resolve, reject) => {
-                    const projectElement = createProject(projectData, category);
-                    projectsContainer.appendChild(projectElement);
-                    resolve();
-                });
+            // Use Promise.all to ensure all project elements and separator bands are created before appending them
+            const elementsToAdd = [];
+            
+            projectsData.forEach(projectData => {
+                const projectElement = createProject(projectData, category);
+                elementsToAdd.push(projectElement);
             });
 
-            // Wait for all promises to resolve
-            return Promise.all(projectPromises);
+            // Append all elements at once
+            projectsContainer.append(...elementsToAdd);
         })
         .catch(error => console.error('Error loading JSON:', error));
 }
