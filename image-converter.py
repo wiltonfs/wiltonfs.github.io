@@ -1,5 +1,6 @@
 import os
 from PIL import Image
+## Converts PNG to jpg
 
 # Specify the folder containing the PNG files
 folder_path = 'images/gamedev'
