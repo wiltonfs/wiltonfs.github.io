@@ -4,14 +4,15 @@
 function createProject(projectData, category) {
     const projectElement = document.createElement("div");
     projectElement.classList.add("project");
+    numOfPhotos = projectData.images.length;
 
     projectElement.innerHTML = `
         <div class="project-title">${projectData.title}</div>
         <div class="project-subtitle">${projectData.subtitle}</div>
         <div class="project-date">${projectData.date}</div>
-        <div class="image-carousel">
+        <div class="image-carousel-${numOfPhotos}">
             ${projectData.images.map(image => `
-                <img src="images/${category}/${image}" alt="${projectData.title} Image" style="max-width: 30%; height: auto;">
+                <img src="images/${category}/${image}" alt="${projectData.title} Image">
             `).join('')}
         </div>
         <div class="project-description">${projectData.description}</div>
