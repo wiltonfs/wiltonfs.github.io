@@ -1,0 +1,127 @@
+/* Bio styles */
+.bio {
+    background-color: #ffffff;
+    padding: 20px;
+}
+.bio-images {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.bio h2 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.bio p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.bio a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+/* Education styles */
+.education {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.education h1 {
+    font-size: 24px;
+    color: #990000;
+}
+
+.education h2 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.education h3 {
+    font-size: 16px;
+    color: #888;
+}
+
+.education p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+/* Skills styles */
+.skills {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.skills h1 {
+    font-size: 24px;
+    color: #990000;
+}
+
+.skills p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+/* Experience styles */
+.experience {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.experience h1 {
+    font-size: 24px;
+    color: #990000;
+}
+
+.experience-title {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.experience-company {
+    font-size: 18px;
+    color: #888;
+}
+
+.experience-date {
+    font-size: 16px;
+    color: #888;
+}
+
+.experience-description {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.experience-links a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+/* Responsive styles for small screens */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .bio-images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bio-images img {
+        width: 100%;
+        max-width: 300px;
+        margin-bottom: 10px;
+    }
+}

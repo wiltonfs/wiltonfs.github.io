@@ -47,7 +47,7 @@ function loadProjects(category, containerId) {
                 // Add vertical spacing between project elements
                 if (index < projectsData.length - 1) {
                     const spacer = document.createElement('div');
-                    spacer.style.height = '30px'; // 10px vertical spacing
+                    spacer.classList.add("spacer");
                     elementsToAdd.push(spacer);
                 }
             });

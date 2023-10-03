@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Felix Wilton</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="profile.css">
+    <script src="profile-loader.js"></script>
 </head>
 <body>
     <header>
@@ -18,31 +20,39 @@
         </nav>
     </header>
 
-    
     <div class="container">
-        <div class="content">
-            <div class="image-container">
+        <div class="bio">
+            <div class="bio-images">
                 <img src="images/Felix_0.jpg" alt="Felix" class="felix-image" width="50%">
                 <img src="images/Felix_1.jpg" alt="Felix" class="felix-image" width="50%">
             </div>
-
-            <!-- Paragraphs about me -->
-            <div class="about-me">
-                <p></p>
-            </div>
-
-            <!-- Links to my LinkedIn and GitHub profiles -->
+            <h2>Hi, I'm Felix Wilton!</h2>
+            <p>I'm a mechatronics and computer science student with a passion for blending my mechanical engineering, programming, and electrical skills. I love opportunities to combine my varied interests, including game design and automotive systems. My extensive work in the assistive technology field has given me a unique perspective on accessibility and the power of engineering to change lives.</p>
             <p>Check out my <a href="https://www.linkedin.com/in/felix-wilton/" target="_blank" rel="noopener noreferrer">LinkedIn profile</a>.</p>
             <p>Check out my projects on <a href="https://github.com/wiltonfs" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
-
-            <!-- Education section -->
-
-            <!-- Key skills section -->
-
-            <!-- Experience section -->
-
-
         </div>
+        <div class="spacer"></div>
+        <div class="education">
+            <h1>EDUCATION</h1>
+            <h2>B.S. Mechanical Engineering</h2>
+            <h3>University of British Columbia</h3>
+            <h3>Sep. 2020 - May 2025</h3>
+            <p>87% average, 3.80 GPA, Dean’s Honors List. Mechatronics specialization. Computer Science minor. Co-op program. 2022 Trek Excellence Scholarship. 2023 NSERC Undergraduate Student Research Award.</p>
+        </div>
+        <div class="spacer"></div>
+        <div class="skills">
+            <h1>SKILLS</h1>
+            <p>Solidworks, Fusion 360, GD&T, Altium, RapidHarness, Arduino.</p>
+            <p>Lathe, mill, CNC, oscilloscope.</p>
+            <p>Java, C, C++, C#, Python, BASH, MATLAB, SQL, HTML, CSS, JavaScript.</p>
+            <p>Jira, Confluence, Git & GitHub.</p>
+            <p>Unity, Unreal, Blender, OpenCV.</p>
+        </div>
+        <div class="spacer"></div>
+        <div class="experience", id="experience">
+            <h1>EXPERIENCE</h1>
+        </div>
+            
     </div>
 
     <footer>
@@ -50,5 +60,9 @@
         <p>Mechatronics & Computer Science @ UBC</p>
         <p>WiltonFelix24@gmail.com</p>
     </footer>
+
+    <script>
+        loadExperience('experience');
+    </script>
 </body>
 </html>
