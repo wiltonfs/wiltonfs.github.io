@@ -26,6 +26,22 @@
             "links": ["https://youtu.be/XzPYYEkJTvA"]
         },
         {
+          "title": "Game Development Executive",
+          "company": "UBC Design League Club",
+          "date": "Aug 2023 - Present",
+          "description": "Teach intro to game development workshops. Organize annual game jam and networking events.",
+          "linkDisplays": [],
+          "links": []
+      },
+      {
+        "title": "Game Development Team Lead",
+        "company": "UBC Game Dev Club",
+        "date": "Aug 2023 - Present",
+        "description": "Teach intro to Unity workshops. Lead development of 2D Unity roguelike exploration game.",
+        "linkDisplays": [],
+        "links": []
+    },
+        {
             "title": "Electrical Member & Recruitment Manager",
             "company": "UBC Formula SAE",
             "date": "Aug 2021 - Present",
