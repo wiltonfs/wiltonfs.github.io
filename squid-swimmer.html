@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Squid Swimmer</title>
+    <link rel="shortcut icon" href="#">
+    <style>
+      body { margin: 0; } canvas {width: 100%;
+      height: 100% }
+
+      .paused-panel {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 200px;
+        border: 2px solid #fff;
+        border-radius: 10px;
+        text-align: center;
+        color: #fff;
+        font-size: 30px;
+      }
+
+      #instructions {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        color: rgb(255, 255, 255);
+        font-size: 25px;
+      }
+
+      #instructions p {
+        margin: 10px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="canvas"></div>
+    <div id="coinCount" style="position: absolute; top: 10px; left: 10px; color: rgb(204, 188, 44);font-size: 50px;"></div>
+    <div id="instructions">
+      <p>SPACE - Swim</p>
+      <p>P - Pause</p>
+      <p>R - Reset</p>
+    </div>
+    <div id="pausePanel" class="paused-panel">
+      <p>Game Paused</p>
+      <p>Press P to unpause</p>
+    </div>
+    <script src="squid/js-old/three.min-r108.js"></script>
+    <script src="squid/js-old/OBJLoader.js"></script>
+    <script src="squid/js-old/SourceLoader.js"></script>
+    <script src="squid/js-old/OrbitControls.js"></script>
+    <script src="squid/js-old/KeyboardState.js"></script> <!-- By Jerome Etienne: http://jetienne.com/ -->
+
+
+<script src="squid/motion.js"></script>
+<script src="squid/squid-swimmer.js"></script>
+
+</body>
+</html>
+
