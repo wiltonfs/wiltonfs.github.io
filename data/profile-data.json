@@ -2,15 +2,15 @@
     "Bio": {
       "pictures": ["Felix_0.jpg", "Felix_1.jpg"],
       "title": "Hi, I'm Felix!",
-      "content": "I'm a mechatronics and computer science student with a passion for blending my mechanical engineering, programming, and electrical skills. I love opportunities to combine my varied interests, including game design and automotive systems. My extensive work in the assistive technology field has given me a unique perspective on accessibility and the power of engineering to change lives.",
+      "content": "I'm a mechatronics and computer science student with a passion for blending my data science, mechanical engineering, and programming skills. I love opportunities to combine my varied interests, including game design and machine learning. My extensive work in the assistive technology field has given me a unique perspective on accessibility and the power of engineering to change lives.",
       "linkDisplays": ["LinkedIn", "GitHub"],
       "links": ["https://www.linkedin.com/in/felix-wilton/", "https://github.com/wiltonfs"]
     },
     "Education": {
       "school": "University of British Columbia",
-      "program": "B.S. Mechanical Engineering",
+      "program": "B.S. Computer Science & Mechanical Engineering",
       "date": "Sep. 2020 - May 2025",
-      "description": "87% average, 3.80 GPA, Dean’s Honors List. Mechatronics specialization. Computer Science minor. Co-op program. 2022 Trek Excellence Scholarship. 2023 NSERC Undergraduate Student Research Award."
+      "description": "87% average, 3.80 GPA, Dean’s Honors List. Mechatronics specialization. Co-op program. 2022 Trek Excellence Scholarship. 2023 NSERC Undergraduate Student Research Award."
     },
     "Skills": {
       "skills": ["Solidworks, Fusion 360, GD&T. Altium, RapidHarness, Arduino. Lathe, mill, CNC.", "Unity, Unreal, Blender, OpenCV. Jira, Confluence, Git & GitHub.", "Java, C, C++, C#, Python, BASH, MATLAB, SQL, HTML, CSS, JavaScript."]
@@ -45,7 +45,7 @@
             "title": "Electrical Member & Recruitment Manager",
             "company": "UBC Formula SAE",
             "date": "Aug 2021 - Present",
-            "description": "Prototype, design, and implement custom circuit boards, sensors, and wiring harnesses on the UBC racecar. Write custom firmware for on-board systems. Lead recruitment and education for new members.",
+            "description": "Prototype, design, and implement custom circuit boards, sensors, and wiring harnesses on the UBC racecar. Write custom C++ firmware for on-board systems. Lead recruitment and education for new members.",
             "linkDisplays": [],
             "links": []
         },
@@ -61,7 +61,7 @@
             "title": "Computational Research Intern",
             "company": "UBC Computational Multiphysics Lab",
             "date": "Jan 2023 - April 2023",
-            "description": "Python. Create and validate deep convolutional neural networks for modeling fluid turbulence.",
+            "description": "Python. Created and validated deep convolutional neural networks for predicting fluid turbulence.",
             "linkDisplays": [],
             "links": []
         },
@@ -69,7 +69,7 @@
             "title": "Manufacturing Engineering Intern",
             "company": "Raytheon Missiles & Defense",
             "date": "May 2022 - Aug 2022",
-            "description": "Created manufacturing procedures, designed improved fixtures. Analyzed process data in Python. Programmed a new system to automate dispositioning of defective units. Project saves 7 eng. hours weekly and reduces defect idle time by 73%. Introduced system to 5 product lines.",
+            "description": "Analyzed process data and defect reports in Python + SQL. Programmed a new system to automate dispositioning of defective units. Project saves 7 eng. hours weekly and reduces defect idle time by 73%. Introduced system to 5 product lines.",
             "linkDisplays": [],
             "links": []
         },
