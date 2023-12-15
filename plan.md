@@ -14,8 +14,8 @@ https://wiltonfs.github.io/more
 On the Left there is a 3:4 headshot of me. On the Right there is a brief bio.
 
 Below this there are three square photos. Each photo is a button. Below each photo is a outlined box with a label inside. The box is a button with the same link as the photo it is under. The three labels are:
-StarNet, Ondaadad, Gone Fishing. Each goes to another page on this domain, namely:
-https://wiltonfs.github.io/StarNet
+AstroAI, Ondaadad, Gone Fishing. Each goes to another page on this domain, namely:
+https://wiltonfs.github.io/AstroAI
 https://wiltonfs.github.io/Ondaadad
 https://wiltonfs.github.io/GoneFishing
 
