@@ -1,0 +1,105 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    text-align: center;
+    padding: 5px;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  
+  .email {
+    font-size: 0.8em;
+    color: #7c7c7c;
+  }
+  
+  nav {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  nav a {
+    color: #4b4b4b;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .bio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .bio img {
+    width: 400px;
+    border-radius: 0px;
+  }
+
+  .bio-text {
+    width: 200px;
+    margin-left: 0px;
+  }
+
+  .fill {
+    flex-grow: 1;
+  }
+  
+  .spacing {
+    width: 30px;
+  }
+  
+  .square-photos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .photo {
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  .photo img {
+    width: 100%;
+    max-width: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .outlined-box {
+    display: block;
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    position: absolute;
+    
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  footer {
+    text-align: center;
+    padding: 60px 0 40px 0;
+  }
+  
+  .social-buttons img {
+    width: 30px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
