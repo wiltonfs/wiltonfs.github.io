@@ -32,12 +32,13 @@
       <div class="fill"></div>
       <div class="column">
         <h2>Project Summary</h2>
-        <p>Stellar parameter predictions using supervised learning. I worked as an undergraduate researcher for the summer of 2023 in Kwang Moo Yi's Computer Vision Lab at the University of British Columbia (UBC).<br><br>Developed ML models and frameworks to process spectra data from the ESA's Gaia telescope. Utilized a large astronomy dataset and high performance computing clusters to accelerate and scale the data processing. Collaborated closely with a team of experts, presenting progress updates and proposing new ideas. Contributed to a cutting-edge software pipeline for spectra-to-stellar parameters in astrophysics, achieving a more complete map of chemical evolution in the Milky Way galaxy.</p>
+        <p>Worked as a game development intern for Research & Innovation at Lambton College on a game project. In association with the Aamjiwnaang First Nation, developed an educational, historically informed exploration and learning game. The player aids their father, Young Gull (a historical figure), as he prepares for a journey by gathering equipment and materials from band members and the local area. Players engage with and learn about local flora, fauna, natural resources, the ancestors of the Aamjiwnaang people, how they live, and the stories they passed along.</p>
+        <p>Working on the project involved studying Aamjiwnaang historical literature, collaborating with other First Nation team members, and frequent check-ins with the Aamjiwnaang leadership.</p>
+        <p>Directly responsible for historical/cultural research and engineering systems within Unreal Engine 5. Contributed to the GDD, TDD, and system documentation.</p>
         <ul>
-          <li><span class="bold">Role:</span> Programmer</li>
-          <li><span class="bold">Skills:</span> Python, High Performance Computing (HPC), PyTorch, Scikit-Learn</li>
+          <li><span class="bold">Role:</span> Game Dev Intern</li>
+          <li><span class="bold">Skills:</span> Unreal Engine 5, MetaHuman, C++, Blueprints</li>
         </ul>
-        <a href="https://github.com/wiltonfs/astro_research" target="_blank">View the project on GitHub</a>
       </div>
       <div class="spacer"></div>
       <img src="images/astro-ai/summary.jpg" alt="Project overview visual">
@@ -50,19 +51,16 @@
       <div class="spacer"></div>
       <div class="column">
         <h2>Dialogue & Conversation System</h2>
-        <p>The dataset is stellar emission spectra, most from stellar surveys, some from astrophysical simulations. Each spectra contain 800 pixels in the wavelength range: 8460.1 - 8699.8 Angstrom.</p>
+        <p>A key system I worked on was the dialogue and conversation system. I developed the backend logic in Unreal Engine blueprints and scoped a fully-featured demo conversation for the team writer to reference. The system was fully documented to support modification and expansion by other team members.</p>
+        <p>I also developed the game data system, which included the conversation data. This was open to other team members on a shared Google Drive file. I developed an AppScript system that checked the data for invalid keys, broken references, and missing data.</p>
+        <P>The dialogue system supported:</P>
         <ul>
-          <li>~870,000 Observed Spectra (GAIA)</li>
-          <li>~51,000 Synthetic Spectra</li>
+          <li>Branching conversation paths</li>
+          <li>Conversation options that are gated by requirements (items, completed quests, etc)</li>
+          <li>Rewards (items, completed quests, etc)</li>
+          <li>Cinematic/conversation camera control</li>
         </ul>
-        <p>The model seeks to predict 4 stellar parameters:</p>
-        <ul>
-          <li>Effective Temperature [Teff]</li>
-          <li>Metallicity [Fe/H]</li>
-          <li>Alpha</li>
-          <li>Surface Gravity [log(g)]</li>
-        </ul>
-        <p>Only about 20% of the observed data has labels.</p>
+        <p>I also developed the frontend and UI using Unreal Engine 5's widgets, maintaining an overall project design language and theme.</p>
       </div>
       <div class="fill"></div>
     </div>
@@ -73,8 +71,8 @@
       <div class="spacer"></div>
       <div class="column">
         <h2>Player Character</h2>
-        <p>Some observed spectra show sinusoidal-like behavior. FFT analysis shows that synthetic data has mostly high magnitude noise, while observed data has some lower frequency effects.</p>
-        <p>Further analysis revealed this sinusoidal behavior was a marker of hot, metal-rich stars and was not simulated in the synthetic data.</p>
+        <p>Using Epic's MetaHuman creator, I designed and implemented the player character. To allow any player to view themself as the main character, I designed an adrogynous character. Additionally, I collaborated with other team members and referenced Aamjiwnaang photographic data to make the character visually accurate.</p>
+        <p>I imported the MetaHuman character and added 3rd person control.</p>
       </div>
       <div class="fill"></div>
     </div>
@@ -85,8 +83,15 @@
       <div class="spacer"></div>
       <div class="column">
         <h2>Pedia/Journal System</h2>
-        <p>In an effort to bridge the domain gap between synthetic and observed samples, I experimented with adding gaussian noise and analyzed the improvement with t-SNEs.</p>
-        <p>This stochastic augmentation increased the robustness of the model and reduced overfitting on the small synthetic dataset.</p>
+        <p>A second key system I worked on was the pedia system. This system unlocks text entries about characters, locations, items, etc as the player progresses. I developed the backend logic in Unreal Engine blueprints and scoped a fully-featured demo conversation for the team writer to reference. The system was fully documented to support modification and expansion by other team members.</p>
+        <p>This system was integrated into the game data system. This was open to other team members on a shared Google Drive file and leveraged my AppScript verification system.</p>
+        <P>The pedia system supported:</P>
+        <ul>
+          <li>Entry categories</li>
+          <li>Embedded links to related entries</li>
+          <li>Associated image</li>
+        </ul>
+        <p>I also developed the frontend and UI using Unreal Engine 5's widgets, maintaining an overall project design language and theme.</p>
       </div>
       <div class="fill"></div>
     </div>
@@ -97,8 +102,15 @@
       <div class="spacer"></div>
       <div class="column">
         <h2>Quest System</h2>
-        <p>I cross-referenced the stars from the GAIA survey with other labeled surveys (including APOGEE) to fill in some of the unlabelled samples or compare two labels for the same sample.</p>
-        <p>A comparison of stars found/labeled in both samples revealed significant differences, especially for the Alpha parameter.</p>
+        <p>The third key system I worked on was the quest system. This system tracks tasks that involve speaking to characters, finding items, or visiting locations. I developed the backend logic in Unreal Engine blueprints and scoped a fully-featured demo conversation for the team writer to reference. The system was fully documented to support modification and expansion by other team members.</p>
+        <p>This system was integrated into the game data system. This was open to other team members on a shared Google Drive file and leveraged my AppScript verification system.</p>
+        <P>The quest system supported:</P>
+        <ul>
+          <li>Completion trigger(s) (items, locations, conversations, etc)</li>
+          <li>Reward(s) on quest completion (items, pedia entries, etc)</li>
+          <li>Links to useful/related pedia entries</li>
+        </ul>
+        <p>I also developed the frontend and UI using Unreal Engine 5's widgets, maintaining an overall project design language and theme.</p>
       </div>
       <div class="fill"></div>
     </div>
@@ -109,15 +121,7 @@
       <div class="spacer"></div>
       <div class="column">
         <h2>Rewards and Pop-Ups</h2>
-        <p>Model architecture:</p>
-        <ul>
-          <li>input layer</li>
-          <li>2 convolutional layers</li>
-          <li>1 maxpooling layer followed by flattening for the fully connected layer</li>
-          <li>2 fully connected layers</li>
-          <li>output layer</li>
-        </ul>
-        <p>I trained this model on the combined dataset I had created, including dynamic noise augmentation. With WandB integration, I trained on the CANFAR and Digital Research Alliance of Canada's supercomputers. I created bash scripts and functionality for hyperparameter tuning and result analysis.</p>
+        <p>To complement my work on the dialogue, pedia, and quest system, I developed peripheral systems like unlock popups. I developed the backend logic in blueprints and integrated it with the other systems. I also developed the frontend and UI using Unreal Engine 5's widgets, maintaining an overall project design language and theme.</p>
       </div>
       <div class="fill"></div>
     </div>
