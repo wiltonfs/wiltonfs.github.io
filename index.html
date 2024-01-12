@@ -1,68 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Felix Wilton</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="profile.css">
-    <script src="profile-loader.js"></script>
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">About Me</a></li>
-                <li><a href="mechatronics.html">Mechatronics</a></li>
-                <li><a href="gamedev.html">Game Development</a></li>
-                <li><a href="cs.html">Computer Science</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <div class="container">
-        <div class="bio">
-            <div class="bio-images">
-                <img src="images/Felix_0.jpg" alt="Felix" class="felix-image" width="50%">
-                <img src="images/Felix_1.jpg" alt="Felix" class="felix-image" width="50%">
-            </div>
-            <h2>Hi, I'm Felix Wilton!</h2>
-            <p>I'm a mechatronics and computer science student with a passion for blending my data science, mechanical engineering, and programming skills. I love opportunities to combine my varied interests, including game design and machine learning. My extensive work in the assistive technology field has given me a unique perspective on accessibility and the power of engineering to change lives.</p>
-            <p>Check out my <a href="https://www.linkedin.com/in/felix-wilton/" target="_blank" rel="noopener noreferrer">LinkedIn profile</a>.</p>
-            <p>Check out my projects on <a href="https://github.com/wiltonfs" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="home.css">
+  <title>Felix Wilton</title>
+  <link rel="icon" href="icons/fw.ico" type="image/x-icon">
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <h1>FELIX WILTON</h1>
+    <p class="email">WiltonFelix24@gmail.com</p>
+
+    <!-- Buttons to other pages -->
+    <nav>
+      <a href="https://wiltonfs.github.io/about">ABOUT ME</a>
+      <a href="https://wiltonfs.github.io">PORTFOLIO</a>
+      <a href="https://wiltonfs.github.io/resume">RESUME</a>
+      <a href="https://wiltonfs.github.io/more-projects">MORE PROJECTS</a>
+    </nav>
+  </header>
+
+  <!-- Intro, Headshot and brief bio -->
+  <main>
+    <!-- Portfolio Showcase -->
+    <div class="portfolio-div">
+        <div class="fill"></div>
+        <div class="portfolio-item">
+            <a href="astro-ai.html"><img src="images/thumbnails/AstroAI.PNG" alt="AstroAI"></a>
+            <button class="portfolio-button" onclick="window.location.href='astro-ai.html'">Astro AI - Machine Learning</button>
         </div>
-        <div class="spacer"></div>
-        <div class="education">
-            <h1>EDUCATION</h1>
-            <h2>B.S. Computer Science & Mechanical Engineering</h2>
-            <h3>University of British Columbia</h3>
-            <h3>Sep. 2020 - May 2025</h3>
-            <p>87% average, 3.80 GPA, Dean’s Honors List. Mechatronics specialization. Co-op program. 2022 Trek Excellence Scholarship. 2023 NSERC Undergraduate Student Research Award.</p>
+        <div class="portfolio-spacer"></div>
+        <div class="portfolio-item">
+            <a href="ondaadad.html"><img src="images/thumbnails/Ondaadad.PNG" alt="Ondaadad"></a>
+            <button class="portfolio-button" onclick="window.location.href='ondaadad.html'">Ondaadad - Unreal Engine 5</button>
         </div>
-        <div class="spacer"></div>
-        <div class="skills">
-            <h1>SKILLS</h1>
-            <p>Solidworks, Fusion 360, GD&T, Altium, RapidHarness, Arduino.</p>
-            <p>Lathe, mill, CNC, oscilloscope.</p>
-            <p>Java, C, C++, C#, Python, BASH, MATLAB, SQL, HTML, CSS, JavaScript.</p>
-            <p>Jira, Confluence, Git & GitHub.</p>
-            <p>Unity, Unreal, Blender, OpenCV.</p>
+        <div class="portfolio-spacer"></div>
+        <div class="portfolio-item">
+            <a href="gone-fishing.html"><img src="images/thumbnails/GoneFishing.PNG" alt="Gone Fishing"></a>
+            <button class="portfolio-button" onclick="window.location.href='gone-fishing.html'">Gone Fishing - Unity</button>
         </div>
-        <div class="spacer"></div>
-        <div class="experience", id="experience">
-            <h1>EXPERIENCE</h1>
-        </div>
-            
+        <div class="fill"></div>
     </div>
 
-    <footer>
-        <p>FELIX WILTON</p>
-        <p>Mechatronics & Computer Science @ UBC</p>
-        <p>WiltonFelix24@gmail.com</p>
-    </footer>
+  </main>
 
-    <script>
-        loadExperience('experience');
-    </script>
+  <!-- Socials -->
+  <footer>
+    <div class="social-buttons">
+      <a href="https://www.linkedin.com/in/felix-wilton/" target="_blank"><img src="logos/linkedin.png" alt="LinkedIn"></a>
+      <a href="https://github.com/wiltonfs" target="_blank"><img src="logos/github.png" alt="GitHub"></a>
+    </div>
+  </footer>
+
 </body>
+
 </html>
