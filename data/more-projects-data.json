@@ -1,0 +1,166 @@
+[
+    {
+        "title": "Sip & Puff Mouse",
+        "subtitle": "Personal project",
+        "date": "Feb 2017",
+        "images": ["mechatronics/SUP_0.jpg", "mechatronics/SUP_1.jpg", "mechatronics/SUP_2.jpg"],
+        "description": "Open source, < $100 Sip-and-Puff mouse for paralyzed patients. Existing options are $1k-$2k. Allows patients to mimic all mouse interactions. 3D printed, designed in Fusion 360. Arduino based with customizable sensitivity and analog filtering. THT soldering, analog sensors. Breath filter and stainless steel mouthpiece. Same functionality and sanitation as commercial options. Instructions and files are freely available online. First Prize in the Instructables.com Microcontroller Contest 2018. Featured on Hackaday, Open-electronics.org, and New Mobility Magazine.",
+        "skills": ["C++", "Arduino", "Fusion 360", "3D printing", "Soldering"],
+        "links_text": ["See collaborator, Jacob Field", "See project on Instructables.com", "Article on Hackaday.com", "Article in Spinal Cord Injury Zone"],
+        "links": ["https://www.linkedin.com/in/jacobtfield", "https://www.instructables.com/The-Sup-a-Mouse-for-Quadriplegics-Low-Cost-and-Ope/", "https://hackaday.com/2018/04/27/an-open-source-sip-and-puff-mouse-for-affordable-accessibility/", "https://spinalcordinjuryzone.com/info/19863/the-sup-a-open-source-sip-and-puff-mouse-for-quadriplegics"]
+    },  
+    {
+        "title": "Intro to Game Development Workshops",
+        "subtitle": "UBC Design League club",
+        "date": "Aug 2023 - PRESENT",
+        "images": ["gamedev/UDL_0.jpg", "gamedev/UDL_1.jpg"],
+        "description": "As head of the game dev program for the UBC Design League club, I teach public workshops on game development. Topics include: game design, programming, art, and level design.",
+        "skills": ["Unity", "C#", "Game design", "Education"],
+        "links_text": [],
+        "links": []
+        
+    },
+    {
+        "title": "Twenty Flappy Eight",
+        "subtitle": "Personal project",
+        "date": "Feb 2023",
+        "images": ["gamedev/TwentyFlappy_0.jpg", "gamedev/TwentyFlappy_1.jpg", "gamedev/TwentyFlappy_2.jpg"],
+        "description": "Combines the frantic arcade gameplay of Flappy Bird with the strategic number matching of 2048.",
+        "skills": ["Unity", "C#"],
+        "links_text": ["Try it out on Itch.io!", "See project files on GitHub"],
+        "links": ["http://wiltonfs.itch.io/twentyflappyeight", "http://github.com/wiltonfs/TwentyFlappyEight"]
+        
+    },
+    {
+        "title": "Photogrammetry Accuracy Investigation",
+        "subtitle": "Craig Hospital",
+        "date": "May 2021 - Aug 2021",
+        "images": ["cs/Craig_1.jpg", "cs/Craig_2.jpg"],
+        "description": "Meshes generated from photos. Comparable in detail and resolution to an expensive structured light scanner. OpenCV and Python to capture images from a multi-camera array. Open source AliceVision Python pipeline to generate mesh. Compared generated meshes with scans from a structured light scanner. Photogrammetry meshes had .19 mm of average mesh error. System cost 85% less than a structured light scanner.",
+        "skills": ["Python", "OpenCV", "Matlab", "Photogrammetry", "3D scanning", "3D printing", "Documentation"],
+        "links_text": [],
+        "links": []
+    },
+    {
+        "title": "Personal Website",
+        "subtitle": "Personal project",
+        "date": "Sep 2023 - PRESENT",
+        "images": ["cs/Website_0.jpg"],
+        "description": "Built this website from scratch using HTML, CSS, and JavaScript. Hosted on GitHub Pages.",
+        "skills": ["HTML", "CSS", "JavaScript", "GitHub Pages"],
+        "links_text": ["See project files on GitHub"],
+        "links": ["https://github.com/wiltonfs/wiltonfs.github.io"]
+    },
+    {
+        "title": "Economic Schools of Thought",
+        "subtitle": "Final project for AP Macroeconomics",
+        "date": "Feb 2019",
+        "images": ["gamedev/Economics_0.jpg", "gamedev/Economics_1.jpg", "gamedev/Economics_2.jpg"],
+        "description": "Fast paced arcade game built in Scratch that teaches the player about different schools of economic thought.",
+        "skills": ["Scratch", "Character balancing", "Educational game design"],
+        "links_text": ["Try it out on Scratch!"],
+        "links": ["https://scratch.mit.edu/projects/287915728/"]
+    },
+    {
+        "title": "Text Adventure Template",
+        "subtitle": "Personal project",
+        "date": "Aug 2018",
+        "images": ["gamedev/TextAdventure_0.jpg", "gamedev/TextAdventure_1.jpg", "gamedev/TextAdventure_2.jpg"],
+        "description": "Simple, node based text adventure template built in Unity. Template includes demo game. Supports save files, inventory, choices, and audio",
+        "skills": ["Unity", "C#"],
+        "links_text": ["Try it out on Itch.io!", "See project files on GitHub"],
+        "links": ["https://wiltonfs.itch.io/text-adventure-engine", "http://github.com/wiltonfs/TextAdventureTemplate-Unity"]
+        
+    },
+    {
+        "title": "Civil War Spy",
+        "subtitle": "Final project for middle school history class",
+        "date": "May 2016",
+        "images": ["gamedev/CivilWarSpy_0.jpg", "gamedev/CivilWarSpy_1.jpg"],
+        "description": "Historical stealth game built in Scratch that teaches the player about espionage in the American Civil War.",
+        "skills": ["Scratch", "Educational game design", "Historical research", "Stealth game design"],
+        "links_text": ["Try it out on Scratch!"],
+        "links": ["https://scratch.mit.edu/projects/107238287/"]
+    },
+    {
+        "title": "Turkey Hunt",
+        "subtitle": "Final project for middle school technology class",
+        "date": "Feb 2016",
+        "images": ["gamedev/TurkeyHunter_0.jpg", "gamedev/TurkeyHunter_1.jpg"],
+        "description": "Side-scrolling hunting game built in Scratch. Enviroment uses (low resolution) panoramic photos of my backyard.",
+        "skills": ["Scratch"],
+        "links_text": ["Try it out on Scratch!"],
+        "links": ["https://scratch.mit.edu/projects/96555151/"]
+    },
+    {
+        "title": "Figure 8",
+        "subtitle": "Personal project",
+        "date": "Jan 2016",
+        "images": ["gamedev/Figure8_0.jpg", "gamedev/Figure8_1.jpg"],
+        "description": "Fast-paced arcade game, avoid crashing into the orbiting balls. Built in Scratch. Includes a global high score system for signed in users.",
+        "skills": ["Scratch", "High score system"],
+        "links_text": ["Try it out on Scratch!"],
+        "links": ["https://scratch.mit.edu/projects/92603656/"] 
+    },
+    {
+        "title": "Wiring Harness",
+        "subtitle": "UBC Formula SAE design team",
+        "date": "Jan 2023 - May 2023",
+        "images": ["mechatronics/Harness_0.jpg", "mechatronics/Harness_1.jpg", "mechatronics/Harness_2.jpg"],
+        "description": "Designed and built wiring harness for racecar's 15+ modules, sensors, and PCBs. Designed harness in RapidHarness. Built harness with crimping tools, concentric twisting, and heat shrink. Installed harness on vehicle.",
+        "skills": ["RapidHarness", "Crimping", "Heat shrink", "Multimeter"],
+        "links_text": [],
+        "links": []
+        
+    },
+    {
+        "title": "CAN Steering Position Sensor",
+        "subtitle": "UBC Formula SAE design team",
+        "date": "Aug 2022 - Dec 2022",
+        "images": ["mechatronics/CAN_0.jpg", "mechatronics/CAN_1.jpg", "mechatronics/CAN_2.jpg"],
+        "description": "Integrated 0.5 Mb/s OEM CAN bus steering position sensor into existing 1 Mb/s network. Custom STM32 firmware translates between CAN speeds. Validated solution with oscilloscope. Implemented solution on vehicle. Successful integration of 2 different CAN network speeds. Steering position data collected for suspension and aerodynamic validation.",
+        "skills": ["CAN bus", "STM32", "C", "Oscilloscope", "Multimeter", "Soldering", "Breadboard prototyping"],
+        "links_text": [],
+        "links": []
+    },
+    {
+        "title": "Hovercraft Design Project",
+        "subtitle": "UBC Mechanical Engineering",
+        "date": "Apr 2022",
+        "images": ["mechatronics/Hovercraft_0.jpg", "mechatronics/Hovercraft_1.jpg", "mechatronics/Hovercraft_2.jpg"],
+        "description": "Designed, created, and raced a hovercraft in a Hackathon-style two week mechanical engineering team competition. Implemented RC control of 2 brushed DC motors with Arduino and off-the-shelf receiver & ESC. Designed battery-powered lift and propulsion system. Custom motor control system won 1st place (20 teams) in acceleration competition. Battery system won 3rd place (20 teams) in endurance race.",
+        "skills": ["Arduino", "Soldering", "DC motor control", "Electrical design"],
+        "links_text": [],
+        "links": []
+    },
+    {
+        "title": "Kill Switch PCB",
+        "subtitle": "UBC Formula SAE design team",
+        "date": "Aug 2021 - Dec 2021",
+        "images": ["mechatronics/KillSwitch_0.jpg", "mechatronics/KillSwitch_1.jpg", "mechatronics/KillSwitch_2.jpg"],
+        "description": "Kill switch logic on the UBC Formula student team racecar. Safety-critical PCB. Meets strict SAE competition and industry standards. Designed in Altium. SMD and THT soldering. Waterproof conformal coating, heat shrink, EVA strain relief, and custom enclosure. Eliminated vibration disconnection issue with previous implementation. LEDs communicate kill switch and battery status. Presented justification for SAE competition.",
+        "skills": ["Altium Designer", "Soldering", "PCB design", "Electrical design", "Conformal coating", "Heat shrink", "EVA strain relief", "Enclosure design", "SAE competition rules"],
+        "links_text": [],
+        "links": []
+    },
+    {
+        "title": "Manufacturing Experience",
+        "subtitle": "UBC Mechanical Engineering & UBC Formula SAE design team",
+        "date": "Aug 2021 - May 2022",
+        "images": ["mechatronics/Manufacturing_0.jpg", "mechatronics/Manufacturing_1.jpg"],
+        "description": "Machined parts according to engineering drawings. Manufactured within tolerance. Improved my machining skills.",
+        "skills": ["GD&T", "Lathe", "Mill", "Hand tools", "CNC router", "Water jet"],
+        "links_text": [],
+        "links": []
+    },
+    {
+        "title": "Conformal Cuff Procedure",
+        "subtitle": "Craig Hospital",
+        "date": "May 2021 - Aug 2021",
+        "images": ["mechatronics/Craig_1.jpg", "mechatronics/Craig_2.jpg", "mechatronics/Craig_3.jpg"],
+        "description": "Created a procedure to digitize hand shapes of patients. Integrated a design pipeline with scanned mesh models. Manufactured custom typing and feeding cuffs. Protected patient data in secure database. Delivered a fully documented process to engineers & therapists. Eliminated skin abrasions, improved fit and function, and reduced cost by 60% compared to previous solution.",
+        "skills": ["Solidworks", "Blender", "3D scanning", "3D printing", "Documentation"],
+        "links_text": [],
+        "links": []
+    }
+]
