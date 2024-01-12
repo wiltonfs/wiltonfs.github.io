@@ -1,0 +1,44 @@
+.portfolio-div {
+  text-align: center;
+  margin-top: 20px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.portfolio-spacer{
+  width: 30px;
+}
+
+.portfolio-item {
+  width: 200px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.portfolio-div img {
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.portfolio-button {
+  margin: 10px 0;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #000;
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.1s, color 0.1s;
+}
+
+.portfolio-button:hover {
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+

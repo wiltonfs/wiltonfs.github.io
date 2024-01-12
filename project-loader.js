@@ -12,7 +12,7 @@ function createProject(projectData, category) {
         <div class="project-date">${projectData.date}</div>
         <div class="image-carousel-${numOfPhotos}">
             ${projectData.images.map(image => `
-                <img src="images/${category}/${image}" alt="${projectData.title} Image">
+                <img src="images/${image}" alt="${projectData.title} Image">
             `).join('')}
         </div>
         <div class="project-description">${projectData.description}</div>
