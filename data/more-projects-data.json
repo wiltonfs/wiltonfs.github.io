@@ -52,57 +52,6 @@
         "links": ["https://github.com/wiltonfs/wiltonfs.github.io"]
     },
     {
-        "title": "Economic Schools of Thought",
-        "subtitle": "Final project for AP Macroeconomics",
-        "date": "Feb 2019",
-        "images": ["gamedev/Economics_0.jpg", "gamedev/Economics_1.jpg", "gamedev/Economics_2.jpg"],
-        "description": "Fast paced arcade game built in Scratch that teaches the player about different schools of economic thought.",
-        "skills": ["Scratch", "Character balancing", "Educational game design"],
-        "links_text": ["Try it out on Scratch!"],
-        "links": ["https://scratch.mit.edu/projects/287915728/"]
-    },
-    {
-        "title": "Text Adventure Template",
-        "subtitle": "Personal project",
-        "date": "Aug 2018",
-        "images": ["gamedev/TextAdventure_0.jpg", "gamedev/TextAdventure_1.jpg", "gamedev/TextAdventure_2.jpg"],
-        "description": "Simple, node based text adventure template built in Unity. Template includes demo game. Supports save files, inventory, choices, and audio",
-        "skills": ["Unity", "C#"],
-        "links_text": ["Try it out on Itch.io!", "See project files on GitHub"],
-        "links": ["https://wiltonfs.itch.io/text-adventure-engine", "http://github.com/wiltonfs/TextAdventureTemplate-Unity"]
-        
-    },
-    {
-        "title": "Civil War Spy",
-        "subtitle": "Final project for middle school history class",
-        "date": "May 2016",
-        "images": ["gamedev/CivilWarSpy_0.jpg", "gamedev/CivilWarSpy_1.jpg"],
-        "description": "Historical stealth game built in Scratch that teaches the player about espionage in the American Civil War.",
-        "skills": ["Scratch", "Educational game design", "Historical research", "Stealth game design"],
-        "links_text": ["Try it out on Scratch!"],
-        "links": ["https://scratch.mit.edu/projects/107238287/"]
-    },
-    {
-        "title": "Turkey Hunt",
-        "subtitle": "Final project for middle school technology class",
-        "date": "Feb 2016",
-        "images": ["gamedev/TurkeyHunter_0.jpg", "gamedev/TurkeyHunter_1.jpg"],
-        "description": "Side-scrolling hunting game built in Scratch. Enviroment uses (low resolution) panoramic photos of my backyard.",
-        "skills": ["Scratch"],
-        "links_text": ["Try it out on Scratch!"],
-        "links": ["https://scratch.mit.edu/projects/96555151/"]
-    },
-    {
-        "title": "Figure 8",
-        "subtitle": "Personal project",
-        "date": "Jan 2016",
-        "images": ["gamedev/Figure8_0.jpg", "gamedev/Figure8_1.jpg"],
-        "description": "Fast-paced arcade game, avoid crashing into the orbiting balls. Built in Scratch. Includes a global high score system for signed in users.",
-        "skills": ["Scratch", "High score system"],
-        "links_text": ["Try it out on Scratch!"],
-        "links": ["https://scratch.mit.edu/projects/92603656/"] 
-    },
-    {
         "title": "Wiring Harness",
         "subtitle": "UBC Formula SAE design team",
         "date": "Jan 2023 - May 2023",
@@ -134,6 +83,27 @@
         "links": []
     },
     {
+        "title": "Economic Schools of Thought",
+        "subtitle": "Final project for AP Macroeconomics",
+        "date": "Feb 2019",
+        "images": ["gamedev/Economics_0.jpg", "gamedev/Economics_1.jpg", "gamedev/Economics_2.jpg"],
+        "description": "Fast paced arcade game built in Scratch that teaches the player about different schools of economic thought.",
+        "skills": ["Scratch", "Character balancing", "Educational game design"],
+        "links_text": ["Try it out on Scratch!"],
+        "links": ["https://scratch.mit.edu/projects/287915728/"]
+    },
+    {
+        "title": "Text Adventure Template",
+        "subtitle": "Personal project",
+        "date": "Aug 2018",
+        "images": ["gamedev/TextAdventure_0.jpg", "gamedev/TextAdventure_1.jpg", "gamedev/TextAdventure_2.jpg"],
+        "description": "Simple, node based text adventure template built in Unity. Template includes demo game. Supports save files, inventory, choices, and audio",
+        "skills": ["Unity", "C#"],
+        "links_text": ["Try it out on Itch.io!", "See project files on GitHub"],
+        "links": ["https://wiltonfs.itch.io/text-adventure-engine", "http://github.com/wiltonfs/TextAdventureTemplate-Unity"]
+        
+    },
+    {
         "title": "Kill Switch PCB",
         "subtitle": "UBC Formula SAE design team",
         "date": "Aug 2021 - Dec 2021",
@@ -154,6 +124,16 @@
         "links": []
     },
     {
+        "title": "Civil War Spy",
+        "subtitle": "Final project for middle school history class",
+        "date": "May 2016",
+        "images": ["gamedev/CivilWarSpy_0.jpg", "gamedev/CivilWarSpy_1.jpg"],
+        "description": "Historical stealth game built in Scratch that teaches the player about espionage in the American Civil War.",
+        "skills": ["Scratch", "Educational game design", "Historical research", "Stealth game design"],
+        "links_text": ["Try it out on Scratch!"],
+        "links": ["https://scratch.mit.edu/projects/107238287/"]
+    },
+    {
         "title": "Conformal Cuff Procedure",
         "subtitle": "Craig Hospital",
         "date": "May 2021 - Aug 2021",
@@ -162,5 +142,25 @@
         "skills": ["Solidworks", "Blender", "3D scanning", "3D printing", "Documentation"],
         "links_text": [],
         "links": []
+    },
+    {
+        "title": "Turkey Hunt",
+        "subtitle": "Final project for middle school technology class",
+        "date": "Feb 2016",
+        "images": ["gamedev/TurkeyHunter_0.jpg", "gamedev/TurkeyHunter_1.jpg"],
+        "description": "Side-scrolling hunting game built in Scratch. Enviroment uses (low resolution) panoramic photos of my backyard.",
+        "skills": ["Scratch"],
+        "links_text": ["Try it out on Scratch!"],
+        "links": ["https://scratch.mit.edu/projects/96555151/"]
+    },
+    {
+        "title": "Figure 8",
+        "subtitle": "Personal project",
+        "date": "Jan 2016",
+        "images": ["gamedev/Figure8_0.jpg", "gamedev/Figure8_1.jpg"],
+        "description": "Fast-paced arcade game, avoid crashing into the orbiting balls. Built in Scratch. Includes a global high score system for signed in users.",
+        "skills": ["Scratch", "High score system"],
+        "links_text": ["Try it out on Scratch!"],
+        "links": ["https://scratch.mit.edu/projects/92603656/"] 
     }
 ]
