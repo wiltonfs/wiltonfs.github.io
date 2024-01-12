@@ -25,11 +25,11 @@ body {
   
   nav a {
     text-align: center;
-    padding: 40px;
+    padding: 5px 5px;
     color: #2b2b2b;
     font-size: 1em;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0 40px;
   }
   
   main {
