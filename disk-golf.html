@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="article.css">
+  <title>Felix Wilton - Disk Golf</title>
+  <link rel="icon" href="icons/fw.ico" type="image/x-icon">
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <h1>FELIX WILTON</h1>
+    <p class="email">WiltonFelix24@gmail.com</p>
+
+    <!-- Buttons to other pages -->
+    <nav>
+      <a href="https://wiltonfs.github.io/about">ABOUT ME</a>
+      <a href="https://wiltonfs.github.io">PORTFOLIO</a>
+      <a href="https://wiltonfs.github.io/resume">RESUME</a>
+      <a href="https://wiltonfs.github.io/more-projects">MORE PROJECTS</a>
+    </nav>
+  </header>
+
+  <!-- Content -->
+  <main>
+    <h1 class="title">Andy's Disk Golf Game - Unreal Engine 5</h1>
+    <div class="article-summary"> 
+      <div class="fill"></div>
+      <div class="column">
+        <h2>Project Summary</h2>
+        <p>Developed a personalized disk golf game for Andy Zosel's (my father-in-law) 50th birthday. The unlockable characters are all members of Andy's family, and their unique skills reflect their real personalities!</p>
+        <ul>
+          <li><span class="bold">Features:</span> Frisbee physics, unlockable characters, quests/challenges, levels, stat tracking, savegame</li>
+          <li><span class="bold">Skills:</span> Unreal Engine 5, MetaHuman, C++, Blueprints</li>
+        </ul>
+        <a href="https://github.com/wiltonfs/andys-disk-golf-game/releases/tag/v1.1.0" target="_blank">View and download the project on GitHub</a>
+      </div>
+      <div class="spacer"></div>
+      <iframe width="700" height="394" src="https://www.youtube.com/embed/unPLgYO4mJA?si=DZcbjF8SBFYU7jrc" frameborder="0" allowfullscreen></iframe>
+      <div class="fill"></div>
+    </div>
+
+    <div class="article-entry">
+      <div class="fill"></div>
+      <img src="images/disk-golf/patterns.jpg" alt="Game Programming Patterns">
+      <div class="spacer"></div>
+      <div class="column">
+        <h2>Unreal Engine Development & Game Programming Patterns</h2>
+        <p>I drew on my familiarity with existing features in Unreal Engine to speed up iteration and development cycles:</p>
+        <ul>
+          <li>Building for Windows</li>
+          <li>Music and sound effects</li>
+          <li>Save game data</li>
+          <li>Game, menu, and pause UI (Slate)</li>
+        </ul>
+        <p>My implementation used game programming best practice, referencing Game Programming Patterns by Robert Nystrom:</p>
+        <ul>
+          <li>Observer pattern</li>
+          <li>Object pooling</li>
+          <li>Singleton</li>
+        </ul>
+      </div>
+      <div class="fill"></div>
+    </div>
+
+    <div class="article-entry">
+      <div class="fill"></div>
+      <img src="images/disk-golf/character-unlock.jpg" alt="Character unlock procedure">
+      <div class="spacer"></div>
+      <div class="column">
+        <h2>Unique Characters and Unlocking System</h2>
+        <p>A key game system I developed was the characters and character unlocking. Designed in UE's MetaHuman creator, each character is a visual representation of a member of Andy's family. Additionally, each character has a unique set of skills that reflect their real personality and lead to novel gameplay.</p>
+        <p>The quests to unlock each character encourage varied gameplay. The different difficulties create reward, challenge, and player progresssion. Most quests encourage use of different character skills to accomplish specific goals.</p>
+        <P>Players must master the game's mechanics and become familiar with every map to unlock all characters.</P>
+      </div>
+      <div class="fill"></div>
+    </div>
+
+    <div class="article-entry">
+      <div class="fill"></div>
+      <img src="images/disk-golf/disk-maps.jpg" alt="Preview of some of the different maps">
+      <div class="spacer"></div>
+      <div class="column">
+        <h2>Level Design</h2>
+        <p>An important feature for a fun disk golf game is the fun disk golf courses!</p>
+        <p>I designed a series of maps that challenge players in a variety of ways. I created obstacles including trees, rocks, structures, and water traps. Some levels test throwing accuracy while others challenge platforming skills. Different character skills (speed, waterproof, projectile visualization, etc) lead to unique gameplay within each level.</p>
+      </div>
+      <div class="fill"></div>
+    </div>
+
+    <div class="article-entry">
+      <div class="fill"></div>
+      <img src="images/disk-golf/disk-flight.gif" alt="Animation of frisbee flight">
+      <div class="spacer"></div>
+      <div class="column">
+        <h2>Frisbee Physics (C++)</h2>
+        <p>I programmed a deterministic frisbee flight simulation in C++, including drag, lift, and pitching forces. Players can learn and master the frisbee dynamics to improve their score on each course. Players have direct control over frisbee roll angle, power, spin direction, and overall trajectory. One character skill creates a trajectory visualization. Due to the deterministic nature of the trajectory, game includes a replay system for players to review their previous throws and understand the performance of the frisbee.</p>
+        <p><em>Physics simulation based on: Simulation of a spin-stabilized sports disc, Crowther and Potts (2007)</em></p>
+      </div>
+      <div class="fill"></div>
+    </div>
+  </main>
+
+  <!-- Socials -->
+  <footer>
+    <div class="social-buttons">
+      <a href="https://www.linkedin.com/in/felix-wilton/" target="_blank"><img src="logos/linkedin.png" alt="LinkedIn"></a>
+      <a href="https://github.com/wiltonfs" target="_blank"><img src="logos/github.png" alt="GitHub"></a>
+    </div>
+  </footer>
+
+</body>
+
+</html>
