@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="article.css">
+  <title>Felix Wilton - Missile Defense</title>
+  <link rel="icon" href="icons/fw.ico" type="image/x-icon">
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <h1>FELIX WILTON</h1>
+    <p class="email">WiltonFelix24@gmail.com</p>
+
+    <!-- Buttons to other pages -->
+    <nav>
+      <a href="https://wiltonfs.github.io/about">ABOUT ME</a>
+      <a href="https://wiltonfs.github.io">PORTFOLIO</a>
+      <a href="https://wiltonfs.github.io/resume">RESUME</a>
+      <a href="https://wiltonfs.github.io/more-projects">MORE PROJECTS</a>
+    </nav>
+  </header>
+
+  <!-- Content -->
+  <main>
+    <h1 class="title">Missile Defense Game - Unity</h1>
+    <div class="article-summary"> 
+      <div class="fill"></div>
+      <div class="column">
+        <h2>Project Summary</h2>
+        <p>The objective of this project was to design and build a unique, immersive gameplay experience that emphasizes physical interaction through a custom-built controller. The final product is a Cold-war-era missile defense console encased in a briefcase, complete with a paper manual and an array of physical inputs: 6 binary switches, a continuous dial, 2 analog sliders, 5 buttons, and a 4-state discrete dial. The briefcase also features 14 status LEDs as outputs. When connected to a PC running the Unity-based game, players can engage in two distinct game modes: a high-octane arcade mode and a methodical challenge mode. Both offer highly tactile gameplay that merges physical manipulation with digital response, creating an integrated simulation that feels authentic and engaging.</p>
+        <p>I was directly responsible for all C firmware, the Unity game development, and collaborated on the mechanical and electrical assembly.</p>
+        <ul>
+          <li><span class="bold">Context:</span> Senior Product Design course, in collaboration with Lazar Stanojevic</li>
+          <li><span class="bold">Skills:</span> Unity, Shader Graph, C#, C, MSP430 Firmware, Soldering</li>
+        </ul>
+      </div>
+      <div class="spacer"></div>
+      <iframe width="700" height="394" src="https://www.youtube.com/embed/IfFMiQ-eD0s?si=L81rgIDV-9YRyW0R" frameborder="0" allowfullscreen></iframe>
+      <div class="fill"></div>
+    </div>
+
+    <div class="article-entry">
+      <div class="fill"></div>
+      <img src="images/ondaadad/conversation.jpg" alt="Gameplay with conversation">
+      <div class="spacer"></div>
+      <div class="column">
+        <h2>Physical Assembly</h2>
+        <p>We started the briefcase mechanical assembly by modelling all hardware in CAD.  The construction involved 3D printed mounting points that support 2 waterjet-cut steel plates and a built-in HD monitor. We painted the plastic parts and labeled all the buttons and switches. The back of the briefcase has a power port, display cable, and USB connection cable.</p>
+        <p>The hardware includes 5 toggle switches, 2 keyed switches, 5 pushbuttons, 2 linear potentiometers, a 4 state switch, a rotary encoder, 14 status LEDs, a thermal printer, and a built in screen. The onboard microcontroller controls all the components and forwards printing messages to the thermal printer. The briefcase is powered by a 5V barrel plug.</p>
+        <p>The firmware runs on an MSP microcontroller and uses every available pin. The MSP samples the 2 analog inputs and digitizes them on the built-in ADC. The board checks all binary inputs, controls the LEDs, and runs a custom state machine controlled by 4 pushbuttons. The status of each input is constantly transmitted to the game laptop over a USB UART connection.</p>
+      </div>
+      <div class="fill"></div>
+    </div>
+
+    <div class="article-entry">
+      <div class="fill"></div>
+      <img src="images/ondaadad/player.jpg" alt="Player character">
+      <div class="spacer"></div>
+      <div class="column">
+        <h2>Shaders</h2>
+        <p>The visual look of the game was a critical part of the game experience. I wrote a number of shaders in Unity's Shader Graph to dramatically enhance the look of the game - manipulating the screen to have a 'curved' and noisy look that is reflective of vacuum tube era screens. The noise includes vertical scanning lines and a green shift across the entire screen. Shaders were defined through mathematical visual operators in the Unity game engine, manipulating the visual field of the screen. 
+        </p>
+      </div>
+      <div class="fill"></div>
+    </div>
+
+    <div class="article-entry">
+      <div class="fill"></div>
+      <img src="images/ondaadad/pedia.jpg" alt="Wampum belt pedia entry">
+      <div class="spacer"></div>
+      <div class="column">
+        <h2>Game Design - Unity</h2>
+        <p>I wrote two C# libraries for Unity to seamlessly treat the briefcase as a custom controller and send commands to the thermal printer. I built the missile defense mechanics iteratively: building a number of separate simple prototypes to test the briefcase hardware, gameplay fun, and visual theme.</p>
+        <p>The game design required tuning difficulty parameters: the number of missiles on screen, the complexity/difficulty of generated missiles, and their lifetime. Missiles are assigned parameters that determine how the briefcase buttons and switches must be set to destroy them. These difficulty values are parametrized in the game project, and were tuned through early and frequent playtests. We brought in brand new people to the game at key milestones to re-evaluate how the game performs when in front of first-time players.</p>
+        <p>The state of the switches, buttons, etc is transmitted from the briefcase to the Unity project using a custom serial message packet.</p>
+      </div>
+      <div class="fill"></div>
+    </div>
+
+    <div class="article-entry">
+      <div class="fill"></div>
+      <img src="images/ondaadad/quest.jpg" alt="Sample game quest">
+      <div class="spacer"></div>
+      <div class="column">
+        <h2>Game Design - Paper Manual</h2>
+        <p>The second game design challenge was the integration of a physical, paper manual with the displayed videogame. Our goal was to game-ify the engineering experience of using a detailed technical manual to complete a task.</p>
+        <P>After playtesting, we prioritized:</P>
+        <ul>
+          <li>Long paragraphs of technical information that serve as visual noise and encourage skimming</li>
+          <li>Clear diagrams that contain the critical information</li>
+          <li>Separation of critical information to create more page-flipping</li>
+          <li>Extra thematic elements to reinforce the cold-war theme</li>
+        </ul>
+        <p>The final 22-page paper manual is required for succesful gameplay and enhances the tacticle game experience.</p>
+      </div>
+      <div class="fill"></div>
+    </div>
+
+    <div class="article-entry">
+      <div class="fill"></div>
+      <img src="images/ondaadad/new-entry.jpg" alt="Pedia reward pop-up">
+      <div class="spacer"></div>
+      <div class="column">
+        <h2>Playtesting</h2>
+        <p>We playtested frequently to verify the effectivenes of our game against the stated design goals. Playtesters gave us feedback on early versions of the gameplay loop and the integration of the paper manual.</p>
+      </div>
+      <div class="fill"></div>
+    </div>
+  </main>
+
+  <!-- Socials -->
+  <footer>
+    <div class="social-buttons">
+      <a href="https://www.linkedin.com/in/felix-wilton/" target="_blank"><img src="logos/linkedin.png" alt="LinkedIn"></a>
+      <a href="https://github.com/wiltonfs" target="_blank"><img src="logos/github.png" alt="GitHub"></a>
+    </div>
+  </footer>
+
+</body>
+
+</html>
